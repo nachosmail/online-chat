@@ -1,0 +1,17 @@
+<div *ngIf="!username">
+  <h2>Ingresá tu nombre</h2>
+  <input [(ngModel)]="username" placeholder="Tu nombre">
+  <button (click)="register()">Ingresar</button>
+</div>
+
+<div *ngIf="username">
+  <h3>Hola, {{ username }} 👋</h3>
+  <input [(ngModel)]="recipient" placeholder="Enviar a...">
+  <ul>
+    <li *ngFor="let msg of chat">
+      <strong>{{ msg.from }}:</strong> {{ msg.message }}
+    </li>
+  </ul>
+  <input [(ngModel)]="message" placeholder="Mensaje...">
+  <button (click)="sendMessage()">Enviar</button>
+</div>

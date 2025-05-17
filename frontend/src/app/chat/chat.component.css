@@ -1,0 +1,21 @@
+.chat-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #121212;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+input {
+  width: 80%;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+}
