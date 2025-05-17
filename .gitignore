@@ -1,0 +1,36 @@
+# === GLOBAL CONFIG ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === NODE ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === ENV FILES ===
+.env
+.env.*
+
+# === BACKEND ===
+/backend/node_modules
+/backend/package-lock.json
+
+# === ANGULAR FRONTEND ===
+/frontend/node_modules
+/frontend/package-lock.json
+/frontend/dist/
+/frontend/.angular/cache/
+/frontend/.angular/config.json
+/frontend/.vscode/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS ===
+*.swp
+*~
